@@ -47,3 +47,5 @@ func main() {
 	fmt.Println("Website up and running on port:", port)
 	http.ListenAndServe(":"+port, r)
 }
+
+// Adding details on my code review for first iteration of Project1
