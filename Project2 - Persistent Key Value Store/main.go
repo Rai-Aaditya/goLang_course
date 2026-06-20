@@ -15,7 +15,7 @@ type Storage interface {
 	Set(key string, value string) error
 	Get(key string) (string, bool)
 }
--
+
 type GetPayload struct {
 	Key string `json:"key"`
 	Val string `json:"value"`
